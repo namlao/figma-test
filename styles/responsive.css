@@ -1,0 +1,130 @@
+
+@media screen and (max-width: 320px){
+    header .container,
+    #shipping .container>div,
+    #block-1>.container,
+    #block-2 .container,
+    #block-3 .container,
+    #block-1 .container>div>form,
+    #block-2 .container div>div{
+        flex-direction: column;
+    }
+    #block-1 .container div,
+    #block-2 .container>div{
+        width: 100%;
+        margin-left: 0;
+    }
+    #block-1 .container>div>form input,
+    #block-1 .container>div>form button{
+        max-width:100% ;
+        margin-right: 0;
+    }
+    #block-1 .container>div>form input,
+    #block-2 .container div>div{
+        margin-bottom: 5px;
+        margin-right:0;
+    }
+    #block-3 .container>div{
+        margin-right: 0;
+    }
+    #block-3 .container div>img{
+        width: 100%;
+    }
+    #banner > div{
+        padding: 20px 0;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 480px){
+    header .container,
+    #shipping .container>div,
+    #block-1>.container,
+    #block-2 .container,
+    #block-3 .container,
+    #block-1 .container>div>form,
+    #block-2 .container div>div{
+        flex-direction: column;
+    }
+    #block-1 .container div,
+    #block-2 .container>div{
+        width: 100%;
+        margin-left: 0;
+    }
+    #block-1 .container>div>form input,
+    #block-1 .container>div>form button{
+        width:100% ;
+        margin-right: 0;
+    }
+    #block-1 .container>div>form input{
+        margin-bottom: 5px;
+    }
+    #block-2 .container div>div{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    #block-2 .container div>div:last-child{
+        margin-bottom: 0;
+    }
+    #block-3 .container>div{
+        margin-right: 0;
+    }
+    #block-3 .container div>img{
+        width: 100%;
+    }
+    #banner > div {
+        padding: 57px 0;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    #banner > div {
+        padding: 97px 0;
+    }
+    header .container div {
+        text-align: end;
+    }
+    #block-1>.container,
+    #shipping .container>div,
+    #block-2 .container{
+        flex-direction: column;
+    }
+    #block-1 .container div{
+        width: 100%;
+        margin-left: 0;
+    }
+    #block-1 .container img,
+    #block-2 .container>div,
+    #block-2 .container>div>img{
+        width: 100%;
+    }
+    #block-2 .container>div:last-child{
+        order:1;
+        margin-left: 0;
+    }
+    #block-2 .container>div:first-child{
+        order:2;
+    }
+    #block-3 .container {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #block-3 .container>div{
+        width: calc((100% / 2) - 15px);
+        margin-right: 0;
+    
+    }
+    #block-3 .container>div:first-child,
+    #block-3 .container>div:nth-child(3){
+        margin-right:30px
+    }
+    #block-3 .container div>img {
+        width: 100%;
+    }
+    #block-2 .container div h3{
+        text-align: center;
+    }
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (min-width: 769px){
+  /* .container{
+      max-width: 1024px;
+  } */
+}
